@@ -1,0 +1,21 @@
+
+.btn {
+    color: red;
+  }
+  .wrap{
+    display: flex; flex-wrap: wrap
+  }
+  
+  .card {
+    border: 1px solid #4B5563;
+    border-radius: 0 0 0.5rem 0.5rem;
+    margin: 1rem;
+    max-width: 40%;
+    padding: 0 0 1rem;
+  }
+  
+  
+  .bold {
+    font-weight: 800;
+  }
+  
