@@ -1,13 +1,12 @@
 import React, { createContext, useReducer, useState } from "react";
-import { reducer } from "../../reducers/filter-reducer";
+import { reducer } from "../reducers/filter-reducer";
 import { useContext } from "react";
-import { ApiContext } from "../ApiContext/ApiContext";
+import { ApiContext } from "./ApiContext";
 
 export const ProductContext = createContext();
 
 export const ProductProvider = ({ children }) => {
   const { products } = useContext(ApiContext);
-  console.log(products);
 
   const initState = {
     products,

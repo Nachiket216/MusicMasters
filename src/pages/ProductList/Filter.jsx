@@ -1,6 +1,6 @@
 import React from "react";
 import { useContext } from "react";
-import { ProductContext } from "../../contexts/ProductListingContext/ProductListingContext";
+import { ProductContext } from "../../contexts/ProductListingContext";
 
 export const Filter = () => {
   const { dispatch } = useContext(ProductContext);

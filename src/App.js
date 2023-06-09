@@ -4,6 +4,8 @@ import { Routes, Route } from "react-router-dom";
 import Mockman from "mockman-js";
 import { Home, ProductList, Cart, WishList } from "./pages/";
 import { Navigation } from "./components";
+import { Login } from "./pages/Login/Login";
+import { RequiresAuth } from "./components/RequiresAuth";
 
 function App() {
   return (
@@ -12,9 +14,24 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/mockman" element={<Mockman />} />
-        <Route path="/cart" element={<Cart />} />
         <Route path="/store" element={<ProductList />} />
-        <Route path="/wishlist" element={<WishList />} />
+        <Route
+          path="/cart"
+          element={
+            <RequiresAuth>
+              <Cart />
+            </RequiresAuth>
+          }
+        />
+        <Route
+          path="/wishlist"
+          element={
+            <RequiresAuth>
+              <WishList />
+            </RequiresAuth>
+          }
+        />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </div>
   );

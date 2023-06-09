@@ -18,6 +18,9 @@ export const Navigation = () => {
           <NavLink to="/wishlist">Wishlist ||</NavLink>
         </li>
         <li>
+          <NavLink to="/login">Login ||</NavLink>
+        </li>
+        <li>
           <NavLink to="/mockman">MockMan</NavLink>
         </li>
       </ul>

@@ -9,7 +9,7 @@ export const products = [
   {
     _id: "1",
     image: "https://m.media-amazon.com/images/I/715elCiMWRL._SL1500_.jpg",
-    category: "Guitar",
+    category: "Chordophones",
     rating: "4.5",
     description:
       "Acoustic Guitar, 38 Inch Cutaway with Bag, Strings, Pick, and Strap",
@@ -23,7 +23,7 @@ export const products = [
   {
     _id: "2",
     image: "https://m.media-amazon.com/images/I/61GjDwXG-CL._SL1319_.jpg",
-    category: "Piano",
+    category: "Keyboard",
     rating: "4.8",
     description: "Digital Piano with Weighted Keys and Built-in Speakers",
     title: "Digital Piano",
@@ -36,7 +36,7 @@ export const products = [
   {
     _id: "3",
     image: "https://m.media-amazon.com/images/I/8186g7plXaL._SL1500_.jpg",
-    category: "Drums",
+    category: "Membranophones",
     rating: "4.2",
     description: "Professional Drum Set with Cymbals and Sticks",
     title: "Professional Drum Set",
@@ -49,7 +49,7 @@ export const products = [
   {
     _id: "4",
     image: "https://m.media-amazon.com/images/I/51o2K5fOhSL._SL1000_.jpg",
-    category: "Flute",
+    category: "Aerophones",
     rating: "4.6",
     description: "Bamboo Flute with Carrying Case",
     title: "Bamboo Flute",
@@ -62,7 +62,7 @@ export const products = [
   {
     _id: "5",
     image: "https://m.media-amazon.com/images/I/61X-T0lbtYL._SL1500_.jpg",
-    category: "Violin",
+    category: "Chordophones",
     rating: "4.3",
     description: "Handcrafted Violin with Bow and Case",
     title: "Handcrafted Violin",
@@ -75,7 +75,7 @@ export const products = [
   {
     _id: "6",
     image: "https://m.media-amazon.com/images/I/81ZXkxzogzL._SL1500_.jpg",
-    category: "Saxophone",
+    category: "Aerophones",
     rating: "4.7",
     description: "Alto Saxophone with Carrying Case and Accessories",
     title: "Alto Saxophone",
@@ -88,7 +88,7 @@ export const products = [
   {
     _id: "7",
     image: "https://m.media-amazon.com/images/I/61M84t1+fXL._SL1500_.jpg",
-    category: "Trumpet",
+    category: "Aerophones",
     rating: "4.4",
     description: "Professional Bb Trumpet with Case and Mouthpiece",
     title: "Professional Trumpet",
@@ -114,7 +114,7 @@ export const products = [
   {
     _id: "9",
     image: "https://m.media-amazon.com/images/I/61jAPolxg9S._SL1500_.jpg",
-    category: "Tambourine",
+    category: "Idiophones",
     rating: "4.1",
     description: "Wooden Tambourine with Double Row Jingles",
     title: "Wooden Tambourine",
@@ -127,7 +127,7 @@ export const products = [
   {
     _id: "10",
     image: "https://m.media-amazon.com/images/I/71sWN9lyp+L._SL1500_.jpg",
-    category: "Harmonica",
+    category: "Aerophones",
     rating: "4.0",
     description: "10-Hole Diatonic Harmonica with Case",
     title: "Diatonic Harmonica",
@@ -140,7 +140,7 @@ export const products = [
   {
     _id: "11",
     image: "https://m.media-amazon.com/images/I/71bF1IJL8IL._SL1500_.jpg",
-    category: "Bass Guitar",
+    category: "Chordophones",
     rating: "4.6",
     description: "4-String Bass Guitar with Amplifier and Accessories",
     title: "4-String Bass Guitar",
@@ -153,7 +153,7 @@ export const products = [
   {
     _id: "12",
     image: "https://m.media-amazon.com/images/I/81mHVtvThZL._SL1500_.jpg",
-    category: "Conga",
+    category: "Membranophones",
     rating: "4.3",
     description: "Wooden Conga Drum with Stand",
     title: "Wooden Conga Drum",
@@ -166,7 +166,7 @@ export const products = [
   {
     _id: "13",
     image: "https://m.media-amazon.com/images/I/61sfes1CRwL._SL1001_.jpg",
-    category: "Harp",
+    category: "Chordophones",
     rating: "4.7",
     description: "Lyre Harp with Tuning Wrench and Bag",
     title: "Lyre Harp",
@@ -179,7 +179,7 @@ export const products = [
   {
     _id: "14",
     image: "https://m.media-amazon.com/images/I/71JOefTRjdL._SL1500_.jpg",
-    category: "Banjo",
+    category: "Chordophones",
     rating: "4.2",
     description: "5-String Banjo with Resonator and Picks",
     title: "5-String Banjo",
@@ -192,7 +192,7 @@ export const products = [
   {
     _id: "15",
     image: "https://m.media-amazon.com/images/I/619HTD9j8+L._SL1500_.jpg",
-    category: "Drums",
+    category: "Membranophones",
     rating: "4.9",
     description: "Digital Drum Set with Mesh Pads and Drum Sticks",
     title: "Digital Drum Set",
@@ -205,7 +205,7 @@ export const products = [
   {
     _id: "16",
     image: "https://m.media-amazon.com/images/I/51rSSEpV8KL.jpg",
-    category: "Harmonium",
+    category: "Keyboard",
     rating: "4.4",
     description: "Harmonium 42 key, Bass Male",
     title: "Harmonium",
@@ -218,7 +218,7 @@ export const products = [
   {
     _id: "17",
     image: "https://m.media-amazon.com/images/I/81lqSPxa7KL._SL1500_.jpg",
-    category: "Ukulele",
+    category: "Chordophones",
     rating: "4.1",
     description: "Soprano Ukulele with Gig Bag and Tuner",
     title: "Soprano Ukulele",
@@ -231,7 +231,7 @@ export const products = [
   {
     _id: "18",
     image: "https://m.media-amazon.com/images/I/61M9mBeRdgL._SL1500_.jpg",
-    category: "Maracas",
+    category: "Idiophones",
     rating: "4.0",
     description: "Wooden Maracas for Latin Percussion",
     title: "Wooden Maracas",
@@ -244,7 +244,7 @@ export const products = [
   {
     _id: "19",
     image: "https://m.media-amazon.com/images/I/71lACL6BO-S._SL1500_.jpg",
-    category: "Accordion",
+    category: "Keyboard",
     rating: "4.7",
     description: "48-Bass Piano Accordion with Straps and Case",
     title: "Bass Piano Accordion",
@@ -257,7 +257,7 @@ export const products = [
   {
     _id: "20",
     image: "https://m.media-amazon.com/images/I/717LD6AWIRL._SL1500_.jpg",
-    category: "Trombone",
+    category: "Aerophones",
     rating: "4.3",
     description: "Tenor Trombone with Case and Mouthpiece",
     title: "Tenor Trombone",
