@@ -25,7 +25,7 @@ function App() {
         />
         <Route
           path="/wishlist"
-          element={
+          element={ 
             <RequiresAuth>
               <WishList />
             </RequiresAuth>
